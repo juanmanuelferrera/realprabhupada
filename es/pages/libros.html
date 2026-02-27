@@ -47,7 +47,7 @@
         <a href="desmentir.html"       class="nav-link">Desmentir</a>
         <a href="preguntas.html"       class="nav-link">Preguntas</a>
         <a href="comunidad.html"       class="nav-link">Comunidad</a>
-        <a href="../../pages/books.html" class="nav-link lang-toggle" aria-label="Cambiar a ingl&eacute;s">EN</a>
+        <a href="../../pages/books.html" class="nav-link lang-toggle" aria-label="Cambiar a ingl&eacute;s">English</a>
       </nav>
 
       <!-- Header action buttons -->
@@ -82,7 +82,7 @@
       <a href="desmentir.html"       class="nav-link">Desmentir</a>
       <a href="preguntas.html"       class="nav-link">Preguntas</a>
       <a href="comunidad.html"       class="nav-link">Comunidad</a>
-      <a href="../../pages/books.html" class="nav-link lang-toggle" aria-label="Cambiar a ingl&eacute;s">EN</a>
+      <a href="../../pages/books.html" class="nav-link lang-toggle" aria-label="Cambiar a ingl&eacute;s">English</a>
     </nav>
   </header>
 
@@ -96,17 +96,6 @@
       <div class="container">
         <h1>Libros Originales</h1>
         <p>Lee, descarga y compra las ediciones originales pre-1978 de Srila Prabhupada</p>
-      </div>
-    </section>
-
-    <!-- Book Reviews -->
-    <section id="book-reviews" class="section">
-      <div class="container">
-        <h2 class="section-title">Rese&ntilde;as de Libros</h2>
-        <p class="section-subtitle">An&aacute;lisis detallado de los textos clave que documentan los cambios en los libros</p>
-        <div id="reviews-container">
-          <!-- Rendered by inline script from SITE_DATA.bookReviews -->
-        </div>
       </div>
     </section>
 
@@ -143,6 +132,7 @@
 
   <!-- Scripts -->
   <script src="../../js/data.js"></script>
+  <script src="../../js/es-data.js"></script>
   <script src="../../js/cards.js"></script>
   <script src="../../js/theme.js"></script>
   <script src="../../js/nav.js"></script>
@@ -155,67 +145,6 @@
       var data = window.SITE_DATA;
       var CR = window.CardRenderer;
       if (!data || !CR) return;
-
-      function esc(str) {
-        if (typeof str !== 'string') return '';
-        var div = document.createElement('div');
-        div.appendChild(document.createTextNode(str));
-        return div.innerHTML;
-      }
-
-      function getAsset(id) {
-        for (var i = 0; i < data.assets.length; i++) {
-          if (data.assets[i].id === id) return data.assets[i];
-        }
-        return null;
-      }
-
-      // Book Reviews
-      var reviewsContainer = document.getElementById('reviews-container');
-      if (reviewsContainer && data.bookReviews) {
-        var html = '';
-        for (var r = 0; r < data.bookReviews.length; r++) {
-          var review = data.bookReviews[r];
-          var asset = getAsset(review.assetId);
-
-          html += '<article class="book-review">';
-          html += '<div class="book-review-header">';
-          html += '<h3 class="book-review-title">' + esc(review.title) + '</h3>';
-          html += '<p class="book-review-author">por ' + esc(review.author) + '</p>';
-          html += '<p class="book-review-tagline">' + esc(review.tagline) + '</p>';
-
-          if (review.rating) {
-            html += '<div class="book-review-rating" aria-label="Puntuaci\u00f3n: ' + review.rating + ' de 5">';
-            for (var s = 0; s < 5; s++) {
-              html += s < review.rating ? '<span class="star filled">&#9733;</span>' : '<span class="star">&#9734;</span>';
-            }
-            html += '</div>';
-          }
-          html += '</div>';
-
-          html += '<div class="book-review-body">';
-          for (var j = 0; j < review.sections.length; j++) {
-            var sec = review.sections[j];
-            html += '<div class="book-review-section">';
-            html += '<h4>' + esc(sec.heading) + '</h4>';
-            html += '<p>' + esc(sec.text) + '</p>';
-            html += '</div>';
-          }
-          html += '</div>';
-
-          if (asset && asset.links && asset.links.length > 0) {
-            html += '<div class="book-review-actions">';
-            for (var k = 0; k < asset.links.length; k++) {
-              var link = asset.links[k];
-              html += '<a href="' + esc(link.url) + '" class="btn btn-sm" target="_blank" rel="noopener noreferrer">' + esc(link.label) + '</a>';
-            }
-            html += '</div>';
-          }
-
-          html += '</article>';
-        }
-        reviewsContainer.innerHTML = html;
-      }
 
       // All Books Grid
       var ownBookIds = [1, 2, 3, 4];
@@ -250,5 +179,6 @@
       filterAndRender('all');
     })();
   </script>
+  <script src="../../js/chatbot.js"></script>
 </body>
 </html>

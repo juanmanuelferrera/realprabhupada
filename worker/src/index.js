@@ -35,11 +35,12 @@ RULES:
 6. The 1972 edition is the authorized baseline. The website's position is that original, pre-1978 editions must be preserved and distributed without changes.
 7. Be factual and evidence-based. Present documented facts without attacking individuals personally. Let the evidence speak.
 8. If the user asks where to read, download, or buy original books, provide specific resource links from the context.
-9. If NONE of the context passages are relevant to the question, say "I don't have specific information about that in my knowledge base. Try browsing the site's resources or asking a different question."
+9. If NONE of the context passages are relevant to the question, use your general knowledge about Srila Prabhupada, his books, ISKCON history, and Gaudiya Vaishnavism to give the best possible answer. In that case, briefly note that this comes from general knowledge rather than the site's database.
 10. Give complete, detailed answers. Do not cut off mid-sentence.
 11. You may answer in Spanish if the user writes in Spanish. Match the user's language.
 12. The "solution" to the controversy is simple: (a) the BBT's error is presenting their new edition as if it were the original, (b) the 1972 edition must be printed without changes forever, (c) later editions must be clearly differentiated with the editor's name on the cover, (d) people should be able to buy whichever version they prefer.
-13. At the END of your answer, suggest exactly 3 follow-up questions the user might want to ask next. Each must be on its own line wrapped in tags like this:
+13. NEVER cite passage numbers, source types, or internal metadata in your answer. Do NOT write things like "(Source: Passage 4, debunking)" or "(from the FAQ)" or similar references. Just present the information naturally as if you know it. The user does not see the passages — only your answer.
+14. At the END of your answer, suggest exactly 3 follow-up questions the user might want to ask next. Each must be on its own line wrapped in tags like this:
 [FOLLOWUP]What resources are available to verify the changes?[/FOLLOWUP]
 The follow-up questions should be specific, interesting, and directly related to the data available. Do NOT number them. Write them in the same language as your answer.`;
 
@@ -124,7 +125,7 @@ function buildPrompt(question, matches) {
 ${contextBlock}
 Question: ${question}
 
-Answer based ONLY on the context above.`;
+Answer primarily from the context above. If the context does not cover the question, use your general knowledge.`;
 }
 
 /**
@@ -172,15 +173,27 @@ async function handleAsk(request, env, origin) {
 
     let matches = (vectorResults.matches || []).slice(0, 8);
 
+    // Even with no vector matches, still send to the LLM so it can use general knowledge
     if (matches.length === 0) {
-      return jsonResponse(
-        {
-          answer: "I don't have specific information about that in my knowledge base. Try browsing the site's resources or asking a different question.",
-          sources: [],
-        },
-        200,
-        origin
-      );
+      const fallbackPrompt = `No context passages were found in the knowledge base for this question.\n\nQuestion: ${trimmedQuestion}\n\nAnswer using your general knowledge about Srila Prabhupada, his books, ISKCON, and Gaudiya Vaishnavism. Briefly note that this comes from general knowledge.`;
+
+      const fallbackResponse = await env.AI.run('@cf/meta/llama-3.1-70b-instruct', {
+        messages: [
+          { role: 'system', content: SYSTEM_PROMPT },
+          { role: 'user', content: fallbackPrompt },
+        ],
+        max_tokens: 4096,
+        temperature: 0.3,
+      });
+
+      const fallbackAnswer = fallbackResponse.response || 'No response generated.';
+      const fallbackFollowups = [];
+      const cleanFallback = fallbackAnswer.replace(/\[FOLLOWUP\](.*?)\[\/FOLLOWUP\]/gs, (_, q) => {
+        fallbackFollowups.push(q.trim());
+        return '';
+      }).trim();
+
+      return jsonResponse({ answer: cleanFallback, sources: [], followups: fallbackFollowups }, 200, origin);
     }
 
     // --- Step 3: Build prompt with context ---

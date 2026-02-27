@@ -383,11 +383,15 @@
       shortTitle: 'Letters Archive',
       description: 'Available through Vedabase and original sources, organized chronologically and by recipient.',
       category: 'documents',
-      links: [],
-      formats: [],
+      links: [
+        { label: 'Vanisource (by Date)', url: 'https://vanisource.org/wiki/Category:Letters_-_by_Date', type: 'visit' },
+        { label: 'PrabhupadaBooks.com', url: 'https://prabhupadabooks.com/letters', type: 'visit' },
+        { label: 'Signed Letters (PDF)', url: 'https://krishna.org/original-signed-letters-from-srila-prabhupada-pdf-download/', type: 'download' }
+      ],
+      formats: ['online', 'pdf'],
       tags: ['letters', 'archive', 'vedabase', 'chronological', 'correspondence', 'prabhupada'],
       featured: false,
-      hasUrl: false
+      hasUrl: true
     },
     {
       id: 25,
@@ -395,11 +399,15 @@
       shortTitle: 'DOM (1970)',
       description: 'ISKCON\'s governance structure as established by Prabhupada.',
       category: 'documents',
-      links: [],
-      formats: [],
+      links: [
+        { label: 'PrabhupadaBooks.com', url: 'https://prabhupadabooks.com/dom', type: 'read' },
+        { label: 'Scanned Original', url: 'https://harekrsna.org/pada/documents/dom.htm', type: 'visit' },
+        { label: 'Krishna.org', url: 'https://krishna.org/srila-prabhupadas-direction-of-management/', type: 'visit' }
+      ],
+      formats: ['online'],
       tags: ['direction of management', 'DOM', '1970', 'governance', 'GBC', 'ISKCON', 'structure'],
       featured: false,
-      hasUrl: false
+      hasUrl: true
     },
     {
       id: 27,
@@ -407,11 +415,15 @@
       shortTitle: 'ISKCON Incorporation',
       description: 'Original charter, bylaws, and incorporation papers.',
       category: 'documents',
-      links: [],
-      formats: [],
+      links: [
+        { label: 'Certificate of Incorporation', url: 'https://prabhupadabooks.com/incorporation', type: 'read' },
+        { label: 'Full Document Collection', url: 'https://prabhupadavision.com/official-iskcon-documents/', type: 'visit' },
+        { label: 'Vanisource', url: 'https://vanisource.org/wiki/660713_-_Certificate_of_Incorporation_of_ISKCON', type: 'visit' }
+      ],
+      formats: ['online'],
       tags: ['ISKCON', 'incorporation', 'charter', 'bylaws', 'legal', 'documents'],
       featured: false,
-      hasUrl: false
+      hasUrl: true
     },
     {
       id: 28,
@@ -419,11 +431,15 @@
       shortTitle: 'BBT Trust Docs',
       description: 'Original Bhaktivedanta Book Trust formation documents.',
       category: 'documents',
-      links: [],
-      formats: [],
+      links: [
+        { label: 'Trust Documents', url: 'https://bhaktivedanta-book-trust.com/documents.html', type: 'visit' },
+        { label: 'BBT.info Documents', url: 'https://bbt.info/documents/', type: 'visit' },
+        { label: 'BBT History', url: 'https://bbt.info/history/', type: 'visit' }
+      ],
+      formats: ['online'],
       tags: ['BBT', 'bhaktivedanta book trust', 'trust', 'formation', 'legal', 'documents', 'original'],
       featured: false,
-      hasUrl: false
+      hasUrl: true
     },
 
     // =========================================================================
@@ -453,11 +469,15 @@
       shortTitle: 'Photo Archive',
       description: '200,000+ slides preserved at the Bhaktivedanta Archives.',
       category: 'historical',
-      links: [],
-      formats: [],
+      links: [
+        { label: 'Bhaktivedanta Archives', url: 'https://prabhupada.com/', type: 'visit' },
+        { label: 'Images Collection', url: 'https://www.prabhupada.com/Collections/Images.html', type: 'visit' },
+        { label: 'Photo Gallery', url: 'https://prabhupada.krishna.com/photos', type: 'visit' }
+      ],
+      formats: ['online'],
       tags: ['photographs', 'slides', 'archive', 'bhaktivedanta archives', 'historical', '200000'],
       featured: false,
-      hasUrl: false
+      hasUrl: true
     },
     {
       id: 31,
@@ -465,11 +485,15 @@
       shortTitle: 'Testimonies',
       description: 'First-hand accounts from disciples (e.g., Govinda Dasi, Ramesvara Prabhu "Prabhupada Memories" series).',
       category: 'historical',
-      links: [],
-      formats: [],
+      links: [
+        { label: 'Prabhupada Memories', url: 'https://prabhupadamemories.com/', type: 'visit' },
+        { label: 'YouTube Channel', url: 'https://www.youtube.com/channel/UC-Ajeil3NjKKgeN9-fxeWwQ', type: 'visit' },
+        { label: 'Ramesvara Interview', url: 'https://krishna.org/ramesvara-1981-interview-on-history-of-iskcon-full-text/', type: 'read' }
+      ],
+      formats: ['online', 'video'],
       tags: ['testimonies', 'witnesses', 'disciples', 'govinda dasi', 'ramesvara', 'prabhupada memories', 'first-hand'],
       featured: false,
-      hasUrl: false
+      hasUrl: true
     },
 
     // =========================================================================

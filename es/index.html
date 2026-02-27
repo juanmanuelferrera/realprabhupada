@@ -47,7 +47,7 @@
         <a href="pages/desmentir.html"     class="nav-link">Desmentir</a>
         <a href="pages/preguntas.html"     class="nav-link">Preguntas</a>
         <a href="pages/comunidad.html"     class="nav-link">Comunidad</a>
-        <a href="../index.html"            class="nav-link lang-toggle" aria-label="Cambiar a ingl&eacute;s">EN</a>
+        <a href="../index.html"            class="nav-link lang-toggle" aria-label="Cambiar a ingl&eacute;s">English</a>
       </nav>
 
       <!-- Header action buttons -->
@@ -94,7 +94,7 @@
       <a href="pages/desmentir.html"     class="nav-link">Desmentir</a>
       <a href="pages/preguntas.html"     class="nav-link">Preguntas</a>
       <a href="pages/comunidad.html"     class="nav-link">Comunidad</a>
-      <a href="../index.html"            class="nav-link lang-toggle" aria-label="Cambiar a ingl&eacute;s">EN</a>
+      <a href="../index.html"            class="nav-link lang-toggle" aria-label="Cambiar a ingl&eacute;s">English</a>
     </nav>
   </header>
 
@@ -108,7 +108,18 @@
       <div class="container">
         <h1>Preservando los Libros Originales de Srila Prabhupada</h1>
         <p class="subtitle">Un centro de recursos para acceder, proteger y distribuir las ediciones originales pre-1978 de la literatura trascendental de Srila Prabhupada.</p>
-        <a href="pages/libros.html" class="btn btn-outline">Ver los Libros Originales</a>
+        <div class="hero-chat">
+          <div class="hero-chat-input-wrap">
+            <input type="text" id="hero-chat-input" class="hero-chat-input" placeholder="Pregunta lo que quieras sobre los libros originales de Prabhupada..." autocomplete="off" maxlength="500">
+            <button class="hero-chat-btn" id="hero-chat-send" aria-label="Enviar pregunta">&#x27A4;</button>
+          </div>
+          <div class="hero-chat-suggestions">
+            <button class="hero-chat-suggestion" data-q="&iquest;D&oacute;nde puedo leer el Bhagavad Gita original?">Gita original</button>
+            <button class="hero-chat-suggestion" data-q="&iquest;Qu&eacute; cambios se hicieron a los libros de Prabhupada?">Cambios</button>
+            <button class="hero-chat-suggestion" data-q="&iquest;Prabhupada autoriz&oacute; las revisiones?">Autorizado</button>
+          </div>
+        </div>
+        <a href="pages/libros.html" class="btn btn-outline" style="margin-top:var(--space-md)">Ver los Libros Originales</a>
       </div>
     </section>
 
@@ -198,11 +209,13 @@
 
   <!-- Scripts -->
   <script src="../js/data.js"></script>
+  <script src="../js/es-data.js"></script>
   <script src="../js/cards.js"></script>
   <script src="../js/theme.js"></script>
   <script src="../js/nav.js"></script>
   <script src="../js/lunr.min.js"></script>
   <script src="../js/search.js"></script>
   <script src="../js/es-home.js"></script>
+  <script src="../js/chatbot.js"></script>
 </body>
 </html>

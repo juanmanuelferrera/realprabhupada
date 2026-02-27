@@ -14,6 +14,16 @@
   var data = window.SITE_DATA;
   if (!data) return;
 
+  // Language-aware labels
+  var isES = document.documentElement.lang === 'es';
+  var L = {
+    myth:    isES ? 'MITO'   : 'MYTH',
+    fact:    isES ? 'HECHO'  : 'FACT',
+    source:  isES ? 'Fuente' : 'Source',
+    pattern: isES ? 'PATRÓN' : 'PATTERN',
+    spanishVersion: isES ? 'Versión en español' : 'Spanish Version'
+  };
+
   // ---------------------------------------------------------------------------
   // Helper: escape HTML entities to prevent XSS
   // ---------------------------------------------------------------------------
@@ -44,17 +54,17 @@
       html +=   '<div class="myth-header">';
       html +=     '<div class="myth-icon">!</div>';
       html +=     '<div>';
-      html +=       '<div class="myth-label">MYTH</div>';
+      html +=       '<div class="myth-label">' + L.myth + '</div>';
       html +=       '<div class="myth-text">' + esc(item.myth) + '</div>';
       html +=     '</div>';
       html +=     '<span class="myth-toggle" aria-hidden="true">&#9660;</span>';
       html +=   '</div>';
       html +=   '<div class="fact-body">';
       html +=     '<div class="fact-inner">';
-      html +=       '<div class="fact-label">FACT</div>';
+      html +=       '<div class="fact-label">' + L.fact + '</div>';
       html +=       '<div class="fact-text">' + esc(item.fact) + '</div>';
       if (item.source) {
-        html +=     '<div class="fact-source">Source: ' + esc(item.source) + '</div>';
+        html +=     '<div class="fact-source">' + L.source + ': ' + esc(item.source) + '</div>';
       }
       html +=     '</div>';
       html +=   '</div>';
@@ -105,7 +115,7 @@
         html +=   '<div class="myth-header">';
         html +=     '<div class="myth-icon">' + esc(String(num)) + '</div>';
         html +=     '<div>';
-        html +=       '<div class="myth-label">PATTERN ' + esc(String(num)) + '</div>';
+        html +=       '<div class="myth-label">' + L.pattern + ' ' + esc(String(num)) + '</div>';
         html +=       '<div class="myth-text">' + esc(pattern.title) + '</div>';
         html +=     '</div>';
         html +=     '<span class="myth-toggle" aria-hidden="true">&#9660;</span>';
@@ -169,7 +179,7 @@
         html +=   '<a href="' + esc(video.spanishUrl) + '"';
         html +=   ' class="btn btn-sm btn-outline"';
         html +=   ' target="_blank" rel="noopener noreferrer">';
-        html +=   'Spanish Version';
+        html +=   L.spanishVersion;
         html +=   '</a>';
         html += '</div>';
       }
