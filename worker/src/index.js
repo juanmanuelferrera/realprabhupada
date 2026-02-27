@@ -186,37 +186,17 @@ async function handleAsk(request, env, origin) {
     // --- Step 3: Build prompt with context ---
     const userPrompt = buildPrompt(trimmedQuestion, matches);
 
-    // --- Step 4: Generate answer via Gemini ---
-    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${env.GEMINI_API_KEY}`;
-    const geminiBody = {
-      system_instruction: { parts: [{ text: SYSTEM_PROMPT }] },
-      contents: [{ role: 'user', parts: [{ text: userPrompt }] }],
-      generationConfig: {
-        maxOutputTokens: 4096,
-        temperature: 0.3,
-      },
-    };
-
-    const geminiRes = await fetch(geminiUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(geminiBody),
+    // --- Step 4: Generate answer via Cloudflare Workers AI ---
+    const aiResponse = await env.AI.run('@cf/meta/llama-3.1-70b-instruct', {
+      messages: [
+        { role: 'system', content: SYSTEM_PROMPT },
+        { role: 'user', content: userPrompt },
+      ],
+      max_tokens: 4096,
+      temperature: 0.3,
     });
 
-    if (!geminiRes.ok) {
-      const errText = await geminiRes.text();
-      console.error('Gemini API error:', geminiRes.status, errText);
-      if (geminiRes.status === 429) {
-        return jsonResponse({
-          answer: 'The daily free quota for AI answers has been reached (250 questions/day). Please try again tomorrow.\n\nLa cuota diaria gratuita de respuestas IA se ha alcanzado (250 preguntas/dia). Por favor, intenta manana.',
-          sources: [],
-        }, 200, origin);
-      }
-      throw new Error('Gemini API returned ' + geminiRes.status);
-    }
-
-    const geminiData = await geminiRes.json();
-    const rawAnswer = geminiData.candidates?.[0]?.content?.parts?.[0]?.text || 'No response generated.';
+    const rawAnswer = aiResponse.response || 'No response generated.';
 
     // --- Step 5: Extract follow-up questions from response ---
     const followups = [];

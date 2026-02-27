@@ -8,7 +8,7 @@
  *   - Source citations
  *   - Loading state
  *   - Error handling
- *   - 250/day quota messaging
+ *   - Cloudflare Workers AI powered
  */
 (function () {
   'use strict';
@@ -18,7 +18,7 @@
   // ---------------------------------------------------------------------------
   // In production, the worker runs on its own subdomain.
   // During dev, use localhost:8787.
-  var API_URL = window.CHATBOT_API_URL || 'https://realprabhupada.workers.dev/api/ask';
+  var API_URL = window.CHATBOT_API_URL || 'https://realprabhupada.joanmanelferrera-400.workers.dev/api/ask';
 
   // ---------------------------------------------------------------------------
   // Utility: Escape HTML to prevent XSS
@@ -90,7 +90,7 @@
             '<button class="btn btn-sm chatbot-send" id="chatbot-send">Send</button>' +
           '</div>' +
         '</div>' +
-        '<p class="chatbot-disclaimer">AI answers are generated from the site\'s knowledge base. 250 free questions per day. Verify important claims with the linked sources.</p>' +
+        '<p class="chatbot-disclaimer">AI answers are generated from the site\'s knowledge base. Verify important claims with the linked sources.</p>' +
       '</div>';
 
     // Attach event listeners
