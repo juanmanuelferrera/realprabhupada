@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lee, descarga y compra las ediciones originales pre-1978 de la literatura trascendental de Srila Prabhupada.">
+  <meta name="theme-color" content="#FF9933">
+  <title>Libros &mdash; Preservando el Legado de Srila Prabhupada</title>
+  <link rel="stylesheet" href="../../css/styles.css">
+  <!-- Inline critical theme script to prevent flash of wrong theme -->
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.style.colorScheme = 'dark';
+        document.addEventListener('DOMContentLoaded', function() {
+          document.body.classList.add('dark-mode');
+        });
+      }
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- Skip link for keyboard / screen-reader users -->
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+
+      <!-- Brand -->
+      <a href="../index.html" class="site-brand" aria-label="Inicio &mdash; Preservando el Legado de Srila Prabhupada">
+        <span class="site-brand-icon" aria-hidden="true">&#x1F4D6;</span>
+        <span class="site-brand-text">Legado de Prabhupada</span>
+      </a>
+
+      <!-- Desktop navigation -->
+      <nav class="nav-desktop" aria-label="Navegaci&oacute;n principal">
+        <a href="../index.html"        class="nav-link">Inicio</a>
+        <a href="libros.html"          class="nav-link active" aria-current="page">Libros</a>
+        <a href="audio.html"           class="nav-link">Audio</a>
+        <a href="documentos.html"      class="nav-link">Documentos</a>
+        <a href="herramientas.html"    class="nav-link">Herramientas</a>
+        <a href="desmentir.html"       class="nav-link">Desmentir</a>
+        <a href="preguntas.html"       class="nav-link">Preguntas</a>
+        <a href="comunidad.html"       class="nav-link">Comunidad</a>
+        <a href="../../pages/books.html" class="nav-link lang-toggle" aria-label="Cambiar a ingl&eacute;s">EN</a>
+      </nav>
+
+      <!-- Header action buttons -->
+      <div class="header-actions">
+        <button class="header-btn" id="search-toggle" aria-label="Abrir b&uacute;squeda" aria-expanded="false" aria-controls="search-overlay">
+          &#x1F50D;
+        </button>
+        <button class="header-btn" id="theme-toggle" aria-label="Cambiar modo oscuro">
+          <span class="theme-icon" aria-hidden="true">&#x2600;</span>
+        </button>
+        <button class="header-btn hamburger" id="nav-toggle" aria-label="Abrir men&uacute;" aria-expanded="false" aria-controls="nav-mobile">
+          &#x2630;
+        </button>
+      </div>
+    </div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="search-overlay" role="search" aria-label="B&uacute;squeda del sitio">
+      <div class="container">
+        <label for="search-input" class="visually-hidden">Buscar recursos</label>
+        <input type="search" id="search-input" class="search-bar" placeholder="Buscar libros, conferencias, documentos..." autocomplete="off">
+      </div>
+    </div>
+
+    <!-- Mobile navigation drawer -->
+    <nav class="nav-mobile" id="nav-mobile" aria-label="Navegaci&oacute;n m&oacute;vil">
+      <a href="../index.html"        class="nav-link">Inicio</a>
+      <a href="libros.html"          class="nav-link active" aria-current="page">Libros</a>
+      <a href="audio.html"           class="nav-link">Audio</a>
+      <a href="documentos.html"      class="nav-link">Documentos</a>
+      <a href="herramientas.html"    class="nav-link">Herramientas</a>
+      <a href="desmentir.html"       class="nav-link">Desmentir</a>
+      <a href="preguntas.html"       class="nav-link">Preguntas</a>
+      <a href="comunidad.html"       class="nav-link">Comunidad</a>
+      <a href="../../pages/books.html" class="nav-link lang-toggle" aria-label="Cambiar a ingl&eacute;s">EN</a>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       MAIN CONTENT
+       ============================================================ -->
+  <main id="main-content">
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Libros Originales</h1>
+        <p>Lee, descarga y compra las ediciones originales pre-1978 de Srila Prabhupada</p>
+      </div>
+    </section>
+
+    <!-- Book Reviews -->
+    <section id="book-reviews" class="section">
+      <div class="container">
+        <h2 class="section-title">Rese&ntilde;as de Libros</h2>
+        <p class="section-subtitle">An&aacute;lisis detallado de los textos clave que documentan los cambios en los libros</p>
+        <div id="reviews-container">
+          <!-- Rendered by inline script from SITE_DATA.bookReviews -->
+        </div>
+      </div>
+    </section>
+
+    <!-- All Books — Filter Tabs -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Todos los Recursos de Libros</h2>
+        <p class="section-subtitle">Lee, descarga y compra las ediciones originales</p>
+        <div id="books-filters"></div>
+        <div id="books-grid" class="grid stagger-children">
+          <!-- Rendered by cards.js -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p class="footer-tagline">Preservando los Libros Originales de Srila Prabhupada Desde 1977</p>
+      <div class="footer-links">
+        <a href="https://arsaprayoga.com" target="_blank" rel="noopener noreferrer">ArsaPrayoga.com</a>
+        <a href="https://gitadiff.pages.dev" target="_blank" rel="noopener noreferrer">GitaDiff</a>
+        <a href="https://bookchanges.com" target="_blank" rel="noopener noreferrer">BookChanges.com</a>
+      </div>
+      <p class="footer-note">
+        Hecho con devoci&oacute;n. Todos los recursos enlazan &uacute;nicamente a ediciones originales pre-1978.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../../js/data.js"></script>
+  <script src="../../js/cards.js"></script>
+  <script src="../../js/theme.js"></script>
+  <script src="../../js/nav.js"></script>
+  <script src="../../js/lunr.min.js"></script>
+  <script src="../../js/search.js"></script>
+  <script>
+    (function () {
+      'use strict';
+
+      var data = window.SITE_DATA;
+      var CR = window.CardRenderer;
+      if (!data || !CR) return;
+
+      function esc(str) {
+        if (typeof str !== 'string') return '';
+        var div = document.createElement('div');
+        div.appendChild(document.createTextNode(str));
+        return div.innerHTML;
+      }
+
+      function getAsset(id) {
+        for (var i = 0; i < data.assets.length; i++) {
+          if (data.assets[i].id === id) return data.assets[i];
+        }
+        return null;
+      }
+
+      // Book Reviews
+      var reviewsContainer = document.getElementById('reviews-container');
+      if (reviewsContainer && data.bookReviews) {
+        var html = '';
+        for (var r = 0; r < data.bookReviews.length; r++) {
+          var review = data.bookReviews[r];
+          var asset = getAsset(review.assetId);
+
+          html += '<article class="book-review">';
+          html += '<div class="book-review-header">';
+          html += '<h3 class="book-review-title">' + esc(review.title) + '</h3>';
+          html += '<p class="book-review-author">por ' + esc(review.author) + '</p>';
+          html += '<p class="book-review-tagline">' + esc(review.tagline) + '</p>';
+
+          if (review.rating) {
+            html += '<div class="book-review-rating" aria-label="Puntuaci\u00f3n: ' + review.rating + ' de 5">';
+            for (var s = 0; s < 5; s++) {
+              html += s < review.rating ? '<span class="star filled">&#9733;</span>' : '<span class="star">&#9734;</span>';
+            }
+            html += '</div>';
+          }
+          html += '</div>';
+
+          html += '<div class="book-review-body">';
+          for (var j = 0; j < review.sections.length; j++) {
+            var sec = review.sections[j];
+            html += '<div class="book-review-section">';
+            html += '<h4>' + esc(sec.heading) + '</h4>';
+            html += '<p>' + esc(sec.text) + '</p>';
+            html += '</div>';
+          }
+          html += '</div>';
+
+          if (asset && asset.links && asset.links.length > 0) {
+            html += '<div class="book-review-actions">';
+            for (var k = 0; k < asset.links.length; k++) {
+              var link = asset.links[k];
+              html += '<a href="' + esc(link.url) + '" class="btn btn-sm" target="_blank" rel="noopener noreferrer">' + esc(link.label) + '</a>';
+            }
+            html += '</div>';
+          }
+
+          html += '</article>';
+        }
+        reviewsContainer.innerHTML = html;
+      }
+
+      // All Books Grid
+      var ownBookIds = [1, 2, 3, 4];
+      var bookChangeIds = [11, 12, 13];
+      var originalBookIds = [14, 15, 16, 17, 18];
+      var allIds = ownBookIds.concat(bookChangeIds).concat(originalBookIds);
+      var allAssets = CR.getAssetsByIds(data.assets, allIds);
+
+      var filterCategories = [
+        { key: 'all',            label: 'Todos' },
+        { key: 'own-projects',   label: 'Nuestros Libros' },
+        { key: 'book-changes',   label: 'Cambios Documentados' },
+        { key: 'original-books', label: 'Libros Originales' }
+      ];
+
+      function filterAndRender(categoryKey) {
+        var filtered;
+        if (categoryKey === 'all') {
+          filtered = allAssets;
+        } else {
+          filtered = [];
+          for (var i = 0; i < allAssets.length; i++) {
+            if (allAssets[i].category === categoryKey) {
+              filtered.push(allAssets[i]);
+            }
+          }
+        }
+        CR.renderCards('books-grid', filtered, data.categories);
+      }
+
+      CR.renderFilters('books-filters', filterCategories, 'all', filterAndRender);
+      filterAndRender('all');
+    })();
+  </script>
+</body>
+</html>

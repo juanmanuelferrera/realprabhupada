@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Preservando los Libros Originales de Srila Prabhupada — Un centro de recursos para acceder, proteger y distribuir las ediciones originales pre-1978 de la literatura trascendental de Srila Prabhupada.">
+  <meta name="theme-color" content="#FF9933">
+  <title>Preservando el Legado de Srila Prabhupada</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <!-- Inline critical theme script to prevent flash of wrong theme -->
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.style.colorScheme = 'dark';
+        document.addEventListener('DOMContentLoaded', function() {
+          document.body.classList.add('dark-mode');
+        });
+      }
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- Skip link for keyboard / screen-reader users -->
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+
+      <!-- Brand -->
+      <a href="../index.html" class="site-brand" aria-label="Inicio — Preservando el Legado de Srila Prabhupada">
+        <span class="site-brand-icon" aria-hidden="true">&#x1F4D6;</span>
+        <span class="site-brand-text">Legado de Prabhupada</span>
+      </a>
+
+      <!-- Desktop navigation -->
+      <nav class="nav-desktop" aria-label="Navegaci&oacute;n principal">
+        <a href="index.html"               class="nav-link active" aria-current="page">Inicio</a>
+        <a href="pages/libros.html"        class="nav-link">Libros</a>
+        <a href="pages/audio.html"         class="nav-link">Audio</a>
+        <a href="pages/documentos.html"    class="nav-link">Documentos</a>
+        <a href="pages/herramientas.html"  class="nav-link">Herramientas</a>
+        <a href="pages/desmentir.html"     class="nav-link">Desmentir</a>
+        <a href="pages/preguntas.html"     class="nav-link">Preguntas</a>
+        <a href="pages/comunidad.html"     class="nav-link">Comunidad</a>
+        <a href="../index.html"            class="nav-link lang-toggle" aria-label="Cambiar a ingl&eacute;s">EN</a>
+      </nav>
+
+      <!-- Header action buttons -->
+      <div class="header-actions">
+
+        <!-- Search toggle -->
+        <button class="header-btn" id="search-toggle" aria-label="Abrir b&uacute;squeda" aria-expanded="false" aria-controls="search-overlay">
+          &#x1F50D;
+        </button>
+
+        <!-- Dark mode toggle -->
+        <button class="header-btn" id="theme-toggle" aria-label="Cambiar modo oscuro">
+          <span class="theme-icon" aria-hidden="true">&#x2600;</span>
+        </button>
+
+        <!-- Mobile hamburger -->
+        <button class="header-btn hamburger" id="nav-toggle" aria-label="Abrir men&uacute;" aria-expanded="false" aria-controls="nav-mobile">
+          &#x2630;
+        </button>
+      </div>
+    </div>
+
+    <!-- Search overlay (hidden by default) -->
+    <div class="search-overlay" id="search-overlay" role="search" aria-label="B&uacute;squeda del sitio">
+      <div class="container">
+        <label for="search-input" class="visually-hidden">Buscar recursos</label>
+        <input
+          type="search"
+          id="search-input"
+          class="search-bar"
+          placeholder="Buscar libros, conferencias, documentos..."
+          autocomplete="off"
+        >
+      </div>
+    </div>
+
+    <!-- Mobile navigation drawer (hidden by default) -->
+    <nav class="nav-mobile" id="nav-mobile" aria-label="Navegaci&oacute;n m&oacute;vil">
+      <a href="index.html"               class="nav-link active" aria-current="page">Inicio</a>
+      <a href="pages/libros.html"        class="nav-link">Libros</a>
+      <a href="pages/audio.html"         class="nav-link">Audio</a>
+      <a href="pages/documentos.html"    class="nav-link">Documentos</a>
+      <a href="pages/herramientas.html"  class="nav-link">Herramientas</a>
+      <a href="pages/desmentir.html"     class="nav-link">Desmentir</a>
+      <a href="pages/preguntas.html"     class="nav-link">Preguntas</a>
+      <a href="pages/comunidad.html"     class="nav-link">Comunidad</a>
+      <a href="../index.html"            class="nav-link lang-toggle" aria-label="Cambiar a ingl&eacute;s">EN</a>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       MAIN CONTENT
+       ============================================================ -->
+  <main id="main-content">
+
+    <!-- Section 1: Hero -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <h1>Preservando los Libros Originales de Srila Prabhupada</h1>
+        <p class="subtitle">Un centro de recursos para acceder, proteger y distribuir las ediciones originales pre-1978 de la literatura trascendental de Srila Prabhupada.</p>
+        <a href="pages/libros.html" class="btn btn-outline">Ver los Libros Originales</a>
+      </div>
+    </section>
+
+    <!-- Section 2: Three Entry-Point Cards -->
+    <section id="entry-points" class="section">
+      <div class="container">
+        <div class="grid hero-cards-grid">
+
+          <a href="pages/desmentir.html" class="hero-card" aria-label="&iquest;Qu&eacute; pas&oacute; con los libros? — Para los que llegan por primera vez">
+            <span class="hero-card-icon" aria-hidden="true">&#x2753;</span>
+            <h2 class="hero-card-title">&iquest;Qu&eacute; pas&oacute; con los libros?</h2>
+            <p class="hero-card-description">Descubre c&oacute;mo 541 de 700 versos fueron cambiados en el Bhagavad Gita despu&eacute;s de la partida de Prabhupada &mdash; y por qu&eacute; importa.</p>
+          </a>
+
+          <a href="pages/libros.html" class="hero-card" aria-label="Consigue los Originales">
+            <span class="hero-card-icon" aria-hidden="true">&#x1F4D6;</span>
+            <h2 class="hero-card-title">Consigue los Originales</h2>
+            <p class="hero-card-description">Lee online, descarga PDFs o compra las ediciones originales pre-1978 que Prabhupada mismo public&oacute; y aprob&oacute;.</p>
+          </a>
+
+          <a href="pages/herramientas.html" class="hero-card" aria-label="Explora la Evidencia — Herramientas de investigaci&oacute;n">
+            <span class="hero-card-icon" aria-hidden="true">&#x1F52C;</span>
+            <h2 class="hero-card-title">Explora la Evidencia</h2>
+            <p class="hero-card-description">Herramientas de comparaci&oacute;n interactivas, cambios documentados, cartas clave y registros hist&oacute;ricos &mdash; todo lo que necesitas para un estudio profundo.</p>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Impact Stats -->
+    <section id="impact-stats" class="section">
+      <div class="container">
+        <h2 class="section-title">La Magnitud de los Cambios</h2>
+        <p class="section-subtitle">Alteraciones documentadas al Bhagavad Gita Tal Como Es de Srila Prabhupada</p>
+        <div id="stats-grid" class="stats-grid stagger-children">
+          <!-- Rendered by js/es-home.js from window.SITE_DATA.stats -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Solution Banner (Spanish, static HTML) -->
+    <section id="solution" class="solution-banner">
+      <div class="container">
+        <h2 class="solution-banner-title">&#x1F914; CONTROVERSIA SOBRE LOS LIBROS DE S. PRABHUPADA &#x1F4DA;</h2>
+        <ol class="solution-banner-points">
+          <li>El error del BBT es presentar su nueva edici&oacute;n como si fuera el original.</li>
+          <li>La edici&oacute;n original de 1972, publicada por Srila Prabhupada, se denomina la &lsquo;fuente primaria&rsquo;. Debe imprimirse sin cambios para siempre.</li>
+          <li>Las ediciones posteriores siempre deben estar claramente diferenciadas del trabajo original, incluyendo el nombre del editor en la portada.</li>
+          <li>La gente deber&iacute;a poder comprar la versi&oacute;n que prefiera.</li>
+        </ol>
+        <p class="solution-banner-conclusion">Problema resuelto.</p>
+      </div>
+    </section>
+
+    <!-- Section 5: Spanish Resources -->
+    <section id="spanish-resources" class="section">
+      <div class="container">
+        <h2 class="section-title">Recursos en Espa&ntilde;ol</h2>
+        <p class="section-subtitle">Material esencial disponible en espa&ntilde;ol para la comunidad hispanohablante</p>
+        <div id="es-resources-grid" class="grid stagger-children">
+          <!-- Rendered by js/es-home.js from window.SITE_DATA -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p class="footer-tagline">Preservando los Libros Originales de Srila Prabhupada Desde 1977</p>
+
+      <div class="footer-links">
+        <a href="https://arsaprayoga.com" target="_blank" rel="noopener noreferrer">ArsaPrayoga.com</a>
+        <a href="https://gitadiff.pages.dev" target="_blank" rel="noopener noreferrer">GitaDiff</a>
+        <a href="https://bookchanges.com" target="_blank" rel="noopener noreferrer">BookChanges.com</a>
+      </div>
+
+      <p class="footer-note">
+        Hecho con devoci&oacute;n. Todos los recursos enlazan &uacute;nicamente a ediciones originales pre-1978.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../js/data.js"></script>
+  <script src="../js/cards.js"></script>
+  <script src="../js/theme.js"></script>
+  <script src="../js/nav.js"></script>
+  <script src="../js/lunr.min.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/es-home.js"></script>
+</body>
+</html>

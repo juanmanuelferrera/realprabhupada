@@ -1,0 +1,1445 @@
+{
+  "assets": [
+    {
+      "id": 1,
+      "title": "Arsa Prayoga (Book)",
+      "shortTitle": "Arsa Prayoga",
+      "description": "Preserving Srila Prabhupada's Legacy by Jagannatha Mishra Dasa. The case against posthumous editing of Prabhupada's books.",
+      "category": "own-projects",
+      "links": [
+        {
+          "label": "Read Online",
+          "url": "http://www.bhaktiyoga.es/arsaprayoga",
+          "type": "read"
+        },
+        {
+          "label": "Paperback",
+          "url": "https://www.amazon.es/Arsa-Prayoga-Preserving-Prabhupadas-legacy/dp/1516989643",
+          "type": "buy"
+        },
+        {
+          "label": "Kindle",
+          "url": "https://www.amazon.com/Arsa-Prayoga-Preserving-Prabhupadas-legacy-ebook/dp/B019HML7DK",
+          "type": "buy"
+        },
+        {
+          "label": "Leanpub",
+          "url": "https://leanpub.com/arsaprayoga",
+          "type": "buy"
+        }
+      ],
+      "formats": [
+        "online",
+        "paperback",
+        "kindle"
+      ],
+      "tags": [
+        "arsa prayoga",
+        "book changes",
+        "posthumous editing",
+        "prabhupada",
+        "original books",
+        "jagannatha mishra"
+      ],
+      "featured": true,
+      "hasUrl": true
+    },
+    {
+      "id": 2,
+      "title": "Stolen Words: The Literary Crime of the Century",
+      "shortTitle": "Stolen Words",
+      "description": "By Jagannatha Mishra Dasa. Investigation into unauthorized changes to Prabhupada's books.",
+      "category": "own-projects",
+      "links": [
+        {
+          "label": "English (Kindle)",
+          "url": "https://a.co/d/01yhfXAf",
+          "type": "buy"
+        },
+        {
+          "label": "English (Paperback)",
+          "url": "https://www.amazon.com/Stolen-Words-Literary-Crime-Century/dp/B0G5HL6NSC",
+          "type": "buy"
+        },
+        {
+          "label": "Spanish Paperback (Palabras Robadas)",
+          "url": "https://a.co/d/0885CYYW",
+          "type": "buy"
+        }
+      ],
+      "formats": [
+        "kindle",
+        "paperback"
+      ],
+      "tags": [
+        "stolen words",
+        "palabras robadas",
+        "book changes",
+        "unauthorized editing",
+        "jagannatha mishra",
+        "investigation"
+      ],
+      "featured": true,
+      "hasUrl": true
+    },
+    {
+      "id": 3,
+      "title": "Bhagavad Gita As It Is — Original 1972 Macmillan Edition",
+      "shortTitle": "Original Gita (1972)",
+      "description": "The authorized edition with all 48 original color plates.",
+      "category": "own-projects",
+      "links": [
+        {
+          "label": "Read Online",
+          "url": "https://www.asitis.com",
+          "type": "read"
+        },
+        {
+          "label": "Hardcover",
+          "url": "https://krishnastore.com/bhagavad-gita-as-it-is-1972-complete-edition-h-krishna-1039.html",
+          "type": "buy"
+        },
+        {
+          "label": "Deluxe Hardcover",
+          "url": "https://krishnastore.com/bhagavad-gita-as-it-is-deluxe-large-1972-macmillan-edition-hardcover-with-dustjacket-h-krishna-10272.html",
+          "type": "buy"
+        },
+        {
+          "label": "Softcover",
+          "url": "https://blservices.com/product/bhagavad-gita-as-it-is-original-macmillan/",
+          "type": "buy"
+        },
+        {
+          "label": "Pocket Edition",
+          "url": "https://www.amazon.com/Mini-Pocket-Size-Bhagavad-Gita/dp/1602930120",
+          "type": "buy"
+        },
+        {
+          "label": "Free PDF",
+          "url": "https://archive.org/details/bhagavad-gita-as-it-is-srila-prabhupada-original-1972-macmillan-edition",
+          "type": "download"
+        },
+        {
+          "label": "Nanofiche Viewer",
+          "url": "https://nanofiche.com/vm/gita-bhakti.html",
+          "type": "read"
+        },
+        {
+          "label": "Full Gita (Searchable)",
+          "url": "https://vaishnavauploads.pages.dev/bg",
+          "type": "read"
+        }
+      ],
+      "formats": [
+        "online",
+        "hardcover",
+        "paperback",
+        "pdf"
+      ],
+      "tags": [
+        "bhagavad gita",
+        "original",
+        "1972",
+        "macmillan",
+        "color plates",
+        "asitis",
+        "nanofiche"
+      ],
+      "featured": true,
+      "hasUrl": true
+    },
+    {
+      "id": 4,
+      "title": "Bhagavad Gita As It Is — Spanish Translation (Original 1972)",
+      "shortTitle": "Gita en Español",
+      "description": "Translated from the original, not the revised BBT edition.",
+      "category": "own-projects",
+      "links": [
+        {
+          "label": "PDF Download",
+          "url": "https://archive.org/details/gita-oficial-color-definitivo/migita_13-dic-2022/",
+          "type": "download"
+        },
+        {
+          "label": "Paperback",
+          "url": "https://amzn.to/2zUgJjT",
+          "type": "buy"
+        }
+      ],
+      "formats": [
+        "pdf",
+        "paperback"
+      ],
+      "tags": [
+        "bhagavad gita",
+        "spanish",
+        "español",
+        "original",
+        "1972",
+        "traducción"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 5,
+      "title": "ArsaPrayoga.com",
+      "shortTitle": "ArsaPrayoga.com",
+      "description": "Website documenting the book changes with articles, video series, and responses to defenders of the edits.",
+      "category": "own-projects",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://arsaprayoga.com",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "online"
+      ],
+      "tags": [
+        "arsa prayoga",
+        "website",
+        "articles",
+        "video series",
+        "book changes",
+        "defense"
+      ],
+      "featured": true,
+      "hasUrl": true
+    },
+    {
+      "id": 6,
+      "title": "GitaDiff",
+      "shortTitle": "GitaDiff",
+      "description": "Interactive research tool comparing the 1972 Macmillan and 1983 BBT revised editions. Tracks 541/700 verses altered (77%). Explorer, side-by-side compare, and pattern analysis of 15 systematic editorial patterns.",
+      "category": "own-projects",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://gitadiff.pages.dev",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "online"
+      ],
+      "tags": [
+        "gitadiff",
+        "diff",
+        "comparison",
+        "tool",
+        "1972",
+        "1983",
+        "verses",
+        "patterns",
+        "research"
+      ],
+      "featured": true,
+      "hasUrl": true
+    },
+    {
+      "id": 7,
+      "title": "Bhagavad Gita DiffChecker",
+      "shortTitle": "Gita DiffChecker",
+      "description": "Full side-by-side text diff of original 1972 vs. revised edition. Shows ~146 removals and ~187 additions in Chapter 1 alone.",
+      "category": "own-projects",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://www.diffchecker.com/L9IHLcKz/",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "online"
+      ],
+      "tags": [
+        "diffchecker",
+        "text diff",
+        "comparison",
+        "1972",
+        "revised",
+        "side by side"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 8,
+      "title": "Vedabase PDF",
+      "shortTitle": "Vedabase PDF",
+      "description": "Complete original works of Prabhupada in a single searchable PDF (books, lectures, letters, conversations).",
+      "category": "own-projects",
+      "links": [
+        {
+          "label": "Download",
+          "url": "https://archive.org/details/vedabase_202502",
+          "type": "download"
+        }
+      ],
+      "formats": [
+        "pdf"
+      ],
+      "tags": [
+        "vedabase",
+        "pdf",
+        "complete works",
+        "lectures",
+        "letters",
+        "conversations",
+        "searchable"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 9,
+      "title": "Vedic Vault Presentation",
+      "shortTitle": "Vedic Vault Presentation",
+      "description": "Vedic Vault project presentation by Jagannatha Mishra Dasa.",
+      "category": "own-projects",
+      "links": [
+        {
+          "label": "Watch",
+          "url": "https://www.youtube.com/watch?v=bSN5Q-rqXIc",
+          "type": "watch"
+        }
+      ],
+      "formats": [
+        "video"
+      ],
+      "tags": [
+        "youtube",
+        "video",
+        "vedic vault",
+        "jagannatha mishra",
+        "presentation"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 10,
+      "title": "Legacy Defense Hub Website (This Project)",
+      "shortTitle": "This Website",
+      "description": "The central site connecting all assets for preserving Srila Prabhupada's original legacy.",
+      "category": "own-projects",
+      "links": [],
+      "formats": [
+        "online"
+      ],
+      "tags": [
+        "website",
+        "hub",
+        "central",
+        "legacy defense"
+      ],
+      "featured": false,
+      "hasUrl": false
+    },
+    {
+      "id": 11,
+      "title": "BookChanges.com",
+      "shortTitle": "BookChanges.com",
+      "description": "Documents over 5,000 changes to the Bhagavad Gita. 496/625 purports and 483/653 translations changed. Over 1,108 changes in The Lilamrta.",
+      "category": "book-changes",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://bookchanges.com",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "online"
+      ],
+      "tags": [
+        "book changes",
+        "documentation",
+        "bhagavad gita",
+        "purports",
+        "translations",
+        "lilamrta",
+        "5000 changes"
+      ],
+      "featured": true,
+      "hasUrl": true
+    },
+    {
+      "id": 12,
+      "title": "Light of Dharma Publishing",
+      "shortTitle": "Light of Dharma",
+      "description": "Investigative platform documenting unauthorized textual alterations. Publishes Stolen Words and forthcoming titles.",
+      "category": "book-changes",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://lightofdharma.com",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "online"
+      ],
+      "tags": [
+        "light of dharma",
+        "publishing",
+        "investigation",
+        "stolen words",
+        "textual alterations"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 13,
+      "title": "Dharma Sanga — Original Teachings Preservation",
+      "shortTitle": "Dharma Sanga",
+      "description": "Legal framework for non-profit preservation archives. Govinda Dasi's essays.",
+      "category": "book-changes",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://www.dharmasanga.org/blog/book-changes/",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "online"
+      ],
+      "tags": [
+        "dharma sanga",
+        "preservation",
+        "legal framework",
+        "non-profit",
+        "govinda dasi",
+        "essays"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 14,
+      "title": "PrabhupadaBooks.com",
+      "shortTitle": "PrabhupadaBooks.com",
+      "description": "Original books readable online.",
+      "category": "original-books",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://prabhupadabooks.com",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "online"
+      ],
+      "tags": [
+        "prabhupada books",
+        "read online",
+        "original",
+        "free"
+      ],
+      "featured": true,
+      "hasUrl": true
+    },
+    {
+      "id": 15,
+      "title": "Prabhupada-Media.net",
+      "shortTitle": "Prabhupada Media",
+      "description": "Download original books as PDFs. Distributed by Krishna Books Inc.",
+      "category": "original-books",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://www.prabhupada-media.net",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "pdf"
+      ],
+      "tags": [
+        "prabhupada media",
+        "pdf",
+        "download",
+        "krishna books inc",
+        "original books"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 16,
+      "title": "Krishna Books Inc.",
+      "shortTitle": "Krishna Books Inc.",
+      "description": "Physical distribution of original pre-1978 editions.",
+      "category": "original-books",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://www.krishna-books.com",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "paperback",
+        "hardcover"
+      ],
+      "tags": [
+        "krishna books",
+        "physical",
+        "original",
+        "pre-1978",
+        "distribution",
+        "buy"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 17,
+      "title": "KrishnaStore.com",
+      "shortTitle": "KrishnaStore.com",
+      "description": "Original books wholesale + Folio Infobase download.",
+      "category": "original-books",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://krishnastore.com",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "online",
+        "hardcover",
+        "paperback"
+      ],
+      "tags": [
+        "krishna store",
+        "wholesale",
+        "folio infobase",
+        "original books",
+        "buy"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 18,
+      "title": "Krishna.org — Free PDF Downloads",
+      "shortTitle": "Krishna.org PDFs",
+      "description": "Scans of original editions (Srimad-Bhagavatam, Caitanya-caritamrta with original color plates). Also hosts installable original Vedabase.",
+      "category": "original-books",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://krishna.org/category/free-pdf-downloads/",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "pdf",
+        "online"
+      ],
+      "tags": [
+        "krishna.org",
+        "pdf",
+        "free",
+        "srimad bhagavatam",
+        "caitanya caritamrta",
+        "color plates",
+        "vedabase"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 19,
+      "title": "Vedabase.net",
+      "shortTitle": "Vedabase.net",
+      "description": "Vedabase by Prahlada Nrsimha Das. (Note: Verify if it carries original editions)",
+      "category": "archives",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://vedabase.net",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "online"
+      ],
+      "tags": [
+        "vedabase",
+        "searchable",
+        "archive",
+        "prahlada nrsimha"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 20,
+      "title": "Prabhupadavani.org",
+      "shortTitle": "Prabhupadavani.org",
+      "description": "Lectures, morning walks, room conversations, interviews. Unedited audio from original reel-to-reel tapes (1967–1977 completed).",
+      "category": "audio-video",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://prabhupadavani.org",
+          "type": "listen"
+        }
+      ],
+      "formats": [
+        "audio",
+        "online"
+      ],
+      "tags": [
+        "prabhupadavani",
+        "audio",
+        "lectures",
+        "morning walks",
+        "conversations",
+        "unedited",
+        "reel-to-reel",
+        "original"
+      ],
+      "featured": true,
+      "hasUrl": true
+    },
+    {
+      "id": 21,
+      "title": "Causeless Mercy",
+      "shortTitle": "Causeless Mercy",
+      "description": "1,843 downloadable lecture/conversation MP3s.",
+      "category": "audio-video",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://causelessmercy.com",
+          "type": "listen"
+        }
+      ],
+      "formats": [
+        "audio"
+      ],
+      "tags": [
+        "causeless mercy",
+        "mp3",
+        "lectures",
+        "conversations",
+        "download",
+        "audio"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 22,
+      "title": "Prabhupada Radio",
+      "shortTitle": "Prabhupada Radio",
+      "description": "24/7 streaming of Prabhupada's original lectures.",
+      "category": "audio-video",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://prabhupadaradio.com",
+          "type": "listen"
+        }
+      ],
+      "formats": [
+        "audio",
+        "online"
+      ],
+      "tags": [
+        "prabhupada radio",
+        "streaming",
+        "24/7",
+        "lectures",
+        "audio",
+        "live"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 23,
+      "title": "Prabhupada.io",
+      "shortTitle": "Prabhupada.io",
+      "description": "Archive site for Srila Prabhupada.",
+      "category": "audio-video",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://prabhupada.io",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "online"
+      ],
+      "tags": [
+        "prabhupada.io",
+        "archive",
+        "prabhupada"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 24,
+      "title": "Complete Letters Archive",
+      "shortTitle": "Letters Archive",
+      "description": "Available through Vedabase and original sources, organized chronologically and by recipient.",
+      "category": "documents",
+      "links": [],
+      "formats": [],
+      "tags": [
+        "letters",
+        "archive",
+        "vedabase",
+        "chronological",
+        "correspondence",
+        "prabhupada"
+      ],
+      "featured": false,
+      "hasUrl": false
+    },
+    {
+      "id": 25,
+      "title": "Direction of Management (DOM, 1970)",
+      "shortTitle": "DOM (1970)",
+      "description": "ISKCON's governance structure as established by Prabhupada.",
+      "category": "documents",
+      "links": [],
+      "formats": [],
+      "tags": [
+        "direction of management",
+        "DOM",
+        "1970",
+        "governance",
+        "GBC",
+        "ISKCON",
+        "structure"
+      ],
+      "featured": false,
+      "hasUrl": false
+    },
+    {
+      "id": 27,
+      "title": "ISKCON Incorporation Documents",
+      "shortTitle": "ISKCON Incorporation",
+      "description": "Original charter, bylaws, and incorporation papers.",
+      "category": "documents",
+      "links": [],
+      "formats": [],
+      "tags": [
+        "ISKCON",
+        "incorporation",
+        "charter",
+        "bylaws",
+        "legal",
+        "documents"
+      ],
+      "featured": false,
+      "hasUrl": false
+    },
+    {
+      "id": 28,
+      "title": "BBT Original Trust Documents",
+      "shortTitle": "BBT Trust Docs",
+      "description": "Original Bhaktivedanta Book Trust formation documents.",
+      "category": "documents",
+      "links": [],
+      "formats": [],
+      "tags": [
+        "BBT",
+        "bhaktivedanta book trust",
+        "trust",
+        "formation",
+        "legal",
+        "documents",
+        "original"
+      ],
+      "featured": false,
+      "hasUrl": false
+    },
+    {
+      "id": 29,
+      "title": "Guardians of the Vedic Vault",
+      "shortTitle": "Vedic Vault",
+      "description": "Permanent records of Prabhupada's teachings through nano-engraving on metal.",
+      "category": "preservation",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://www.vedicvault.org",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "online"
+      ],
+      "tags": [
+        "vedic vault",
+        "preservation",
+        "nano-engraving",
+        "metal",
+        "permanent",
+        "physical"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 30,
+      "title": "Photographic Archive",
+      "shortTitle": "Photo Archive",
+      "description": "200,000+ slides preserved at the Bhaktivedanta Archives.",
+      "category": "historical",
+      "links": [],
+      "formats": [],
+      "tags": [
+        "photographs",
+        "slides",
+        "archive",
+        "bhaktivedanta archives",
+        "historical",
+        "200000"
+      ],
+      "featured": false,
+      "hasUrl": false
+    },
+    {
+      "id": 31,
+      "title": "Witness Testimonies Collection",
+      "shortTitle": "Testimonies",
+      "description": "First-hand accounts from disciples (e.g., Govinda Dasi, Ramesvara Prabhu \"Prabhupada Memories\" series).",
+      "category": "historical",
+      "links": [],
+      "formats": [],
+      "tags": [
+        "testimonies",
+        "witnesses",
+        "disciples",
+        "govinda dasi",
+        "ramesvara",
+        "prabhupada memories",
+        "first-hand"
+      ],
+      "featured": false,
+      "hasUrl": false
+    },
+    {
+      "id": 32,
+      "title": "Vaisnavas de Espana (Facebook)",
+      "shortTitle": "Vaisnavas de España",
+      "description": "Spanish-language community page.",
+      "category": "community",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://www.facebook.com/vaisnavasdeespana/",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "online"
+      ],
+      "tags": [
+        "facebook",
+        "spanish",
+        "españa",
+        "community",
+        "vaisnavas",
+        "social media"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 33,
+      "title": "r/PrabhupadaAsItIs (Reddit)",
+      "shortTitle": "Reddit Community",
+      "description": "Reddit community for Prabhupada's original teachings.",
+      "category": "community",
+      "links": [
+        {
+          "label": "Visit",
+          "url": "https://www.reddit.com/r/PrabhupadaAsItIs/",
+          "type": "visit"
+        }
+      ],
+      "formats": [
+        "online"
+      ],
+      "tags": [
+        "reddit",
+        "community",
+        "prabhupada",
+        "original teachings",
+        "social media",
+        "discussion"
+      ],
+      "featured": false,
+      "hasUrl": true
+    },
+    {
+      "id": 34,
+      "title": "Siddhanta Reference Library",
+      "shortTitle": "Siddhanta Library",
+      "description": "Prabhupada's philosophical conclusions on key topics.",
+      "category": "philosophical",
+      "links": [],
+      "formats": [],
+      "tags": [
+        "siddhanta",
+        "philosophy",
+        "reference",
+        "library",
+        "conclusions",
+        "topics"
+      ],
+      "featured": false,
+      "hasUrl": false
+    },
+    {
+      "id": 35,
+      "title": "Misrepresentation Corrections",
+      "shortTitle": "Corrections",
+      "description": "Documented responses to distortions of Prabhupada's teachings.",
+      "category": "philosophical",
+      "links": [],
+      "formats": [],
+      "tags": [
+        "misrepresentation",
+        "corrections",
+        "distortions",
+        "defense",
+        "responses"
+      ],
+      "featured": false,
+      "hasUrl": false
+    },
+    {
+      "id": 36,
+      "title": "Parampara Authentication",
+      "shortTitle": "Parampara",
+      "description": "Evidence and documentation of the disciplic succession.",
+      "category": "philosophical",
+      "links": [],
+      "formats": [],
+      "tags": [
+        "parampara",
+        "disciplic succession",
+        "authentication",
+        "evidence",
+        "documentation"
+      ],
+      "featured": false,
+      "hasUrl": false
+    }
+  ],
+  "categories": {
+    "own-projects": {
+      "label": "Our Projects",
+      "icon": "⚡",
+      "color": "saffron"
+    },
+    "book-changes": {
+      "label": "Book Changes",
+      "icon": "📝",
+      "color": "burgundy"
+    },
+    "original-books": {
+      "label": "Original Books",
+      "icon": "📚",
+      "color": "gold"
+    },
+    "archives": {
+      "label": "Searchable Archives",
+      "icon": "🔍",
+      "color": "blue"
+    },
+    "audio-video": {
+      "label": "Audio & Video",
+      "icon": "🎧",
+      "color": "purple"
+    },
+    "documents": {
+      "label": "Key Documents",
+      "icon": "📜",
+      "color": "green"
+    },
+    "preservation": {
+      "label": "Physical Preservation",
+      "icon": "🏛️",
+      "color": "gold"
+    },
+    "historical": {
+      "label": "Historical Evidence",
+      "icon": "📷",
+      "color": "brown"
+    },
+    "community": {
+      "label": "Community",
+      "icon": "🤝",
+      "color": "saffron"
+    },
+    "philosophical": {
+      "label": "Philosophical Defense",
+      "icon": "🕉️",
+      "color": "burgundy"
+    }
+  },
+  "stats": [
+    {
+      "number": "541",
+      "label": "of 700 verses altered",
+      "suffix": "/700"
+    },
+    {
+      "number": "77",
+      "label": "of verses changed",
+      "suffix": "%"
+    },
+    {
+      "number": "5,000",
+      "label": "changes documented",
+      "suffix": "+"
+    },
+    {
+      "number": "496",
+      "label": "of 625 purports changed",
+      "suffix": "/625"
+    }
+  ],
+  "solution": {
+    "title": "The Solution",
+    "emoji": "🤔",
+    "subtitle": "CONTROVERSY ABOUT SRILA PRABHUPADA'S BOOKS",
+    "points": [
+      "The BBT's error is presenting their new edition as if it were the original.",
+      "The original 1972 edition, published by Srila Prabhupada, is the 'primary source'. It must be printed without changes forever.",
+      "Later editions must always be clearly differentiated from the original work, including the editor's name on the cover.",
+      "People should be able to buy whichever version they prefer."
+    ],
+    "conclusion": "Problem solved."
+  },
+  "debunkingMyths": [
+    {
+      "myth": "The changes are minor and don't affect the meaning",
+      "fact": "GitaDiff documents 541 out of 700 verses altered — that's 77% of the entire Bhagavad Gita. BookChanges.com records over 5,000 individual changes. 496 of 625 purports and 483 of 653 translations were modified.",
+      "source": "GitaDiff (gitadiff.pages.dev), BookChanges.com"
+    },
+    {
+      "myth": "Prabhupada approved the revisions",
+      "fact": "Prabhupada never approved a posthumous revision of his Bhagavad Gita. The 1983 revised edition was published six years after his departure in 1977. No letter, conversation, or document has ever been produced showing Prabhupada authorizing a future revision of the completed 1972 Macmillan edition.",
+      "source": "Arsa Prayoga, Chapter 3: \"Did Prabhupada Want Changes?\""
+    },
+    {
+      "myth": "The editors improved the literary quality",
+      "fact": "Many changes alter the philosophical meaning, not just grammar. Words were added, removed, and substituted in ways that change Prabhupada's intended message. The original edition was reviewed and approved by Prabhupada himself.",
+      "source": "Stolen Words: The Literary Crime of the Century"
+    },
+    {
+      "myth": "The revisions are necessary for new readers",
+      "fact": "The original 1972 Macmillan edition sold millions of copies and was the edition used by Prabhupada himself for teaching. Readers who discovered Krishna consciousness through the original edition found it perfectly clear and accessible.",
+      "source": "Historical sales records, testimonies from original readers"
+    },
+    {
+      "myth": "This is just a difference of opinion",
+      "fact": "This is not a matter of opinion. It is a matter of documented, verifiable textual changes to a published author's work, made after his death, without his authorization. The changes can be verified by anyone using GitaDiff or the DiffChecker.",
+      "source": "GitaDiff (gitadiff.pages.dev), DiffChecker"
+    },
+    {
+      "myth": "The editor went back to Prabhupada's original manuscripts",
+      "fact": "Jayadvaita Swami claims he restored what Prabhupada \"actually dictated\" by consulting original tapes and manuscripts, implying the 1972 Macmillan edition was a flawed intermediary. But the manuscripts were working drafts \u2014 not the finished product. Prabhupada personally reviewed, corrected, and approved the 1972 published edition as his final version. An author's approved publication supersedes earlier drafts. No publishing house in the world would revert a published book to rough-draft form and call it an improvement.",
+      "source": "Arsa Prayoga, Chapter 4; Prabhupada's letters regarding the Macmillan edition"
+    },
+    {
+      "myth": "Prabhupada complained about mistakes in his books",
+      "fact": "Prabhupada did occasionally mention errors \u2014 typos, spelling mistakes, and printing problems. He never once requested or authorized a systematic re-editing of the philosophical content, translations, or purports of his Bhagavad Gita. Correcting a typographical error and rewriting 77% of the verses are two entirely different things. The BBTi conflates these to manufacture consent for a revision Prabhupada never asked for.",
+      "source": "Arsa Prayoga, Chapter 3; Prabhupada's letters on printing errors vs. the scope of the 1983 revision"
+    },
+    {
+      "myth": "Hayagriva made errors that needed correcting",
+      "fact": "Blaming the original editor, Hayagriva Dasa, shifts responsibility away from the real issue: Prabhupada personally supervised the 1972 edition and approved the final result. Whatever editorial choices Hayagriva made, Prabhupada reviewed the published book and accepted it as his own. The author's approval is the final word. Posthumously overriding that approval by blaming a deceased editor who cannot defend himself is neither ethical nor honest.",
+      "source": "Arsa Prayoga; Prabhupada's recorded approval of the 1972 Macmillan edition"
+    },
+    {
+      "myth": "Prabhupada said 'responsible editors' should correct his books",
+      "fact": "This quote is taken out of context. In the cited conversation (February 27, 1977), Prabhupada was discussing specific typographical and grammatical errors, not authorizing a future wholesale revision of his completed works. He also explicitly stated: \"The next printing should be again to the original way.\" The BBTi uses a fragment to justify something Prabhupada never intended. Reading the full conversation in context makes the actual instruction unmistakable.",
+      "source": "Room conversation, February 27, 1977, Mayapur; Arsa Prayoga, Chapter 3"
+    },
+    {
+      "myth": "The revised edition is more accurate to the Sanskrit",
+      "fact": "Prabhupada's translations were not academic exercises \u2014 they were his own deliberate devotional renderings, informed by the disciplic succession (parampara). He chose specific English words to convey specific philosophical meanings. Replacing his chosen words with \"more accurate\" Sanskrit translations imposes the editor's scholarly judgment over the acarya's realized understanding. Prabhupada himself warned against this: the meaning should come through the parampara, not through academic interpretation.",
+      "source": "Prabhupada's preface to Bhagavad Gita As It Is; Arsa Prayoga, Chapter 5"
+    },
+    {
+      "myth": "The BBT has the legal right to edit the books",
+      "fact": "Legal copyright ownership does not equal spiritual authorization. A corporation can legally own the rights to a text, but that does not make posthumous alterations morally or spiritually legitimate. Prabhupada established the BBT to print and distribute his books, not to rewrite them. The Vaishnava principle of arsa prayoga holds that the words of the acarya are to be preserved as given, not \"improved\" by those who came after. Corporate authority cannot override the author's explicit wishes.",
+      "source": "BBT Trust Document; Arsa Prayoga, Chapter 6; Vaishnava literary tradition"
+    },
+    {
+      "myth": "Prabhupada himself changed the Gita between editions",
+      "fact": "The BBTi points to differences between the 1968 abridged Macmillan edition and the 1972 complete edition as evidence that \"Prabhupada also revised.\" This is deeply misleading. The 1968 edition was an abridged version with only selected verses. The 1972 edition was the complete, unabridged work that Prabhupada personally supervised as his definitive edition. An author expanding his own work during his lifetime is not the same as an editor rewriting the finished book after the author's death.",
+      "source": "Publishing history of Bhagavad Gita As It Is (1968 vs. 1972 editions); Arsa Prayoga"
+    }
+  ],
+  "psychologicalProfile": {
+    "title": "Psychological Profile of the Editors and Defenders of the Bhagavad Gita Revision",
+    "intro": "The following observations are drawn exclusively from the arguments of Jayadvaita Swami and others throughout the 19 videos in this series. They are not clinical diagnoses but behavioral patterns that any attentive reader can verify.",
+    "image": "assets/images/psychological-profile.jpg",
+    "imageAlt": "The Book Changers: Jayadvaita Swami, Dravida Dasa, Gopiparanadhana Dasa, Hari Sauri Dasa, Kesava Bharati Dasa, Sacinandana Swami, Svavasa Dasa, Vaisesika Dasa",
+    "patterns": [
+      {
+        "id": 1,
+        "title": "Grandiosity Disguised as Humility",
+        "text": "In Video 12, when Kesava Bharati Dasa (convicted by ISKCON itself as a child abuser) is asked which edition is closer to Prabhupada's intention, his answer is: he personally \"hears Prabhupada's intention more clearly\" in his own revision, and it \"feels empowered and enlivened.\" This is not an editorial argument. It is a claim to privileged spiritual perception. He is saying, in effect, that he can perceive what Prabhupada truly meant better than Prabhupada's own published text communicates it. In Video 9, Gopiparanadhana Dasa goes further: \"the second edition is more original than the first.\" The person who revised the book declares his revision more authentic than the author's own edition. This is grandiosity presented as devotional service."
+      },
+      {
+        "id": 2,
+        "title": "Contempt for the Predecessor",
+        "text": "The entire revision project is built on an unstated premise: that Hayagriva, Prabhupada's original editor, did a poor job. In Video 9, Gopiparanadhana Dasa describes Hayagriva as someone who \"crossed out what he couldn't decipher.\" In Video 17, Hari Sauri Dasa explains the early editorial process as inadequate, with Prabhupada having to leave his work \"in the hands of his disciples\" because \"he didn't have time\" to review it. In Video 19, Jayadvaita Swami's contempt becomes explicit: \"The Blessed Lord\" is attributed directly to Hayagriva by name, as if identifying the source were sufficient to delegitimize the phrase. The implication is consistent: the original editorial work was deficient, and only the current editor can correct it. What is never acknowledged is that Prabhupada used the product of Hayagriva's work for five years without demanding a revision. Contempt for the predecessor is the emotional engine driving the project. For most of the series it remains implicit, but in Jayadvaita's Video 19 it surfaces openly: Hayagriva is named, blamed, and overruled."
+      },
+      {
+        "id": 3,
+        "title": "Inversion of Accountability",
+        "text": "A consistent pattern throughout the videos is the inversion of who must justify what. In Video 7, the editor offers to \"change it back if evidence arises,\" as if the author-approved original text must now prove its validity against the revision. In Video 4, those who object to the changes are characterized as conspiracy theorists. In Video 14, defenders of the original text are called \"fanatics.\" The person who altered 77% of a deceased author's book positions himself as the reasonable moderate, while those who say \"don't change the author's published work\" are the extremists. This inversion of accountability is psychologically revealing: it is the posture of someone who knows his position is difficult to defend and therefore must preemptively discredit those who question it."
+      },
+      {
+        "id": 4,
+        "title": "Authority Without Limits",
+        "text": "In Video 11, his argument is explicit: \"editors by definition revise.\" Being appointed editor, in his view, constitutes blanket authorization for unlimited revision in perpetuity, even after the author's death. In Video 5, the argument extends further: since Prabhupada \"never told them to stop editing,\" the editorial mandate is eternal. In Video 15, Prabhupada's acceptance of minor typographical corrections to the First Canto is extrapolated as authorization to revise 541 verses of the Bhagavad-gita. The pattern is one of progressive expansion: a narrow, specific authorization is stretched to cover unlimited scope. This is the behavior of someone who has assumed authority and then seeks justification retroactively, not of someone who received a clear mandate and is executing it."
+      },
+      {
+        "id": 5,
+        "title": "Inability to Distinguish Himself from the Author",
+        "text": "In Video 12, the editor states that his revision \"feels empowered.\" In Video 9, he declares it \"more original than the first.\" In Video 8, meaning-altering changes are defended as \"restoration of Prabhupada's original intention.\" Throughout the entire series, there is no moment of doubt, no acknowledgment that the editor's perception of Prabhupada's intention might differ from Prabhupada's actual intention. Video 19 provides the most revealing formulation: \"I felt justified in restoring it.\" Not \"the evidence required it.\" Not \"the manuscript demanded it.\" He felt justified. The basis for changing a sacred text is a personal feeling. The boundary between what the editor believes Prabhupada meant and what Prabhupada actually published has collapsed. This is psychological fusion: the editor has identified so completely with his role that he can no longer distinguish his own editorial preferences from the author's voice. When he changes a verse, he genuinely believes he is restoring Prabhupada. The possibility that he is substituting himself for Prabhupada does not seem to occur to him."
+      },
+      {
+        "id": 6,
+        "title": "Minimization as a Defense Mechanism",
+        "text": "In Video 1, the 5,000 changes are dismissed as \"not impressive\" because they include punctuation. In Video 4, Vaisesika Dasa says the change in BG 4.34 is \"not particularly\" problematic. In Video 7, the change from Visnu form/Visnu platform is \"either way.\" Each individual change is presented as trivial when examined in isolation. But 541 verses is not trivial. The systematic minimization of individual changes serves to prevent the listener from perceiving the cumulative effect. This is a well-documented psychological defense mechanism: if each brick is insignificant, the wall they form somehow doesn't exist."
+      },
+      {
+        "id": 7,
+        "title": "Deflection Through Emotional Framing",
+        "text": "When faced with substantive criticism, the response throughout these videos is consistently emotional rather than evidentiary. In Video 8, the rhetorical question is \"how dare you\" — directed not at the editor for changing the text, but at critics for objecting. In Video 14, critics are characterized as people who \"shoot off in some direction\" and are \"totally unreasonable.\" In Video 5, engaging with textual evidence is dismissed as \"nitpicking.\" The pattern is to deflect discussion from evidence (what was changed, why, and whether it matches the manuscript) toward emotion (loyalty, faith, empowerment, fanaticism). This is the behavior of someone who cannot win the evidentiary argument and therefore refuses to have it."
+      },
+      {
+        "id": 8,
+        "title": "Vagueness Where Precision Is Needed",
+        "text": "In Video 16, when asked about the authority for the revision, the answer is remarkably imprecise: \"I could see a document where Srila Prabhupada said...\" but what the document says is never specified. He describes having sent \"some paper or documentation\" and hedges: \"I don't want to say manuscript.\" He recalls \"a paper or letter or... whatever it was.\" For someone defending the most significant editorial intervention in the history of his tradition, the inability or unwillingness to cite specific documents with precision is revealing. Either the authorizing evidence does not exist in the form claimed, or the editor has not felt the need to verify it carefully, because the decision was made on other grounds and the documentation is invoked as post-hoc justification."
+      },
+      {
+        "id": 9,
+        "title": "The Psychology of the Fait Accompli",
+        "text": "Perhaps the most important observation is structural rather than specific to any individual video. The revision was completed and published decades ago. Every argument in this series is a defense of a fait accompli, not a proposal for future action. This fundamentally shapes the psychology: the editor is not asking permission. He is explaining why what he already did was right. This creates a psychological imperative to justify at all costs, because admitting that the revision was unauthorized or unfaithful would require confronting decades of invested identity. The arguments do not need to be logically rigorous because their function is not to persuade through logic. Their function is to provide sufficient rhetorical cover for the editor and his followers to continue believing in the legitimacy of what has already been done."
+      },
+      {
+        "id": 10,
+        "title": "Theological Imprecision Disguised as Academic Rigor",
+        "text": "In Video 19, Jayadvaita criticizes Gita Press for using impersonal terms like \"Paramatma\" and \"Parabrahma\" and places \"Blessed Lord\" in the same category. This conflation is theologically illiterate. \"Blessed Lord\" is a devotional and personal term — it conveys adoration, sovereignty, and grace. It is the opposite of the impersonal \"Parabrahma.\" The inability or unwillingness to distinguish between a reverential personal address and an impersonal philosophical abstraction suggests that the editor's objection to \"Blessed Lord\" is not theological at all. It is territorial: Hayagriva chose the phrase, therefore it must go. The theological argument is constructed afterward to rationalize what is fundamentally an act of displacement."
+      }
+    ],
+    "summary": "What emerges from these 19 videos is not the portrait of careful scholars defending their work with evidence. It is the portrait of people who made a consequential decision decades ago, identified their entire spiritual identity with that decision, and now experience any challenge to the revision as a challenge to their own legitimacy. The arguments are not built from evidence toward a conclusion. They begin with the conclusion — that the revision was correct — and work backward to find justifications. This explains why the arguments are inconsistent (the original is both deficient enough to require a complete overhaul and sacred enough to invoke Prabhupada's authority), why critics are dismissed rather than engaged, and why subjective impressions of \"empowerment\" are offered as evidence alongside procedural claims about institutional authority. These are not the arguments of someone seeking truth. They are the arguments of someone defending a position that has become inseparable from their sense of self."
+  },
+  "videoEvidence": [
+    {
+      "id": 1,
+      "title": "Why 5,000 changes?",
+      "quotes": [
+        {
+          "text": "The number doesn't impress me",
+          "url": "https://www.youtube.com/watch?v=jBQoYoridyU&t=79"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Do you have a problem with the change in BG 4.34?",
+      "quotes": [
+        {
+          "text": "Not particularly... unless one thinks there's a conspiracy",
+          "url": "https://www.youtube.com/watch?v=Y-dt0Pv8eR4&t=18"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Is it appropriate to edit Prabhupada's books after his departure?",
+      "quotes": [
+        {
+          "text": "I'm convinced that certain disciples are empowered to edit his books",
+          "url": "https://www.youtube.com/watch?v=8kupWFJuyvQ&t=172"
+        },
+        {
+          "text": "He never told them to stop editing",
+          "url": "https://www.youtube.com/watch?v=8kupWFJuyvQ&t=184"
+        },
+        {
+          "text": "Better than nitpicking about what's original",
+          "url": "https://www.youtube.com/watch?v=8kupWFJuyvQ&t=302"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Why did you change 'Visnu form' to 'Visnu platform'?",
+      "quotes": [
+        {
+          "text": "Either way",
+          "url": "https://www.youtube.com/watch?v=9m76vZd1rGA&t=24"
+        },
+        {
+          "text": "It's not sacred, it's not that serious",
+          "url": "https://www.youtube.com/watch?v=9m76vZd1rGA&t=43"
+        },
+        {
+          "text": "What kind of principle is that?",
+          "url": "https://www.youtube.com/watch?v=9m76vZd1rGA&t=94"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Why do some changes seriously alter the meaning?",
+      "quotes": [
+        {
+          "text": "Is that terrible? Is it sinful?",
+          "url": "https://www.youtube.com/watch?v=3lp8t5AG1vA&t=42"
+        },
+        {
+          "text": "How dare you?",
+          "url": "https://www.youtube.com/watch?v=3lp8t5AG1vA&t=48"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Why edit a book already edited and approved?",
+      "quotes": [
+        {
+          "text": "Hayagriva simply crossed it out with a black marker",
+          "url": "https://www.youtube.com/watch?v=7Px-W57nt4Y&t=53"
+        },
+        {
+          "text": "The original is what comes from Prabhupada's mouth, not what was published",
+          "url": "https://www.youtube.com/watch?v=7Px-W57nt4Y&t=123"
+        },
+        {
+          "text": "The second edition is more original than the first",
+          "url": "https://www.youtube.com/watch?v=7Px-W57nt4Y&t=143"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Prabhupada opposed changes. Why change?",
+      "quotes": [
+        {
+          "text": "For practically ten years my prescribed duty was to change",
+          "url": "https://www.youtube.com/watch?v=OX2X_o3OzGg&t=41"
+        },
+        {
+          "text": "Editors are people who by definition revise",
+          "url": "https://www.youtube.com/watch?v=OX2X_o3OzGg&t=62"
+        },
+        {
+          "text": "Somehow Prabhupada trusted me",
+          "url": "https://www.youtube.com/watch?v=OX2X_o3OzGg&t=95"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Which edition do you consider closer to Prabhupada's intention?",
+      "quotes": [
+        {
+          "text": "What I see is Prabhupada's intention more clearly",
+          "url": "https://www.youtube.com/watch?v=ff9PZ4cA7oM&t=17"
+        },
+        {
+          "text": "I hear his intention and that gives me faith... it's empowered",
+          "url": "https://www.youtube.com/watch?v=ff9PZ4cA7oM&t=37"
+        },
+        {
+          "text": "The second edition is empowered",
+          "url": "https://www.youtube.com/watch?v=ff9PZ4cA7oM&t=51"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Why did you add to the purport of BG 4.34?",
+      "quotes": [
+        {
+          "text": "It's not my fault, that's what Prabhupada said",
+          "url": "https://www.youtube.com/watch?v=I8x2qtx_6t4&t=19"
+        },
+        {
+          "text": "It's common sense",
+          "url": "https://www.youtube.com/watch?v=I8x2qtx_6t4&t=44"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Shouldn't we simply be faithful and loyal to Prabhupada?",
+      "quotes": [
+        {
+          "text": "Devotees become fanatics about preserving errors",
+          "url": "https://www.youtube.com/watch?v=RlPqHhmitTo&t=34"
+        },
+        {
+          "text": "They make a big mistake themselves",
+          "url": "https://www.youtube.com/watch?v=RlPqHhmitTo&t=76"
+        },
+        {
+          "text": "They shoot off in some direction... it's totally unreasonable",
+          "url": "https://www.youtube.com/watch?v=RlPqHhmitTo&t=92"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Does the BBT have authority for posthumous corrections?",
+      "quotes": [
+        {
+          "text": "The authority comes from Prabhupada's desire that his books be free of errors",
+          "url": "https://www.youtube.com/watch?v=l3AAi9LxjJQ&t=17"
+        },
+        {
+          "text": "Prabhupada accepted them without seeing them",
+          "url": "https://www.youtube.com/watch?v=l3AAi9LxjJQ&t=62"
+        },
+        {
+          "text": "The idea that the books were frozen is fallacious",
+          "url": "https://www.youtube.com/watch?v=l3AAi9LxjJQ&t=108"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "By what authority did Jayadvaita Swami re-edit the Gita?",
+      "quotes": [
+        {
+          "text": "I could see a document where Srila Prabhupada said...",
+          "url": "https://www.youtube.com/watch?v=lrqpR_tF6ns&t=18"
+        },
+        {
+          "text": "Whatever it was, a paper or letter or... I don't want to say manuscript",
+          "url": "https://www.youtube.com/watch?v=lrqpR_tF6ns&t=54"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Did Prabhupada approve all the editing?",
+      "quotes": [
+        {
+          "text": "Even the best writers need a good editor, Srila Prabhupada included",
+          "url": "https://www.youtube.com/watch?v=uQiA_70ny5I&t=25"
+        },
+        {
+          "text": "He didn't look at it again... he didn't have time",
+          "url": "https://www.youtube.com/watch?v=uQiA_70ny5I&t=70"
+        },
+        {
+          "text": "He knew there were going to be some mistakes",
+          "url": "https://www.youtube.com/watch?v=uQiA_70ny5I&t=98"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Why did you change 'The Blessed Lord said'?",
+      "quotes": [
+        {
+          "text": "Full video",
+          "url": "https://www.youtube.com/watch?v=rpV54tfQ_O8"
+        }
+      ],
+      "spanishUrl": "https://www.facebook.com/vaisnavasdeespana/posts/pfbid031ouaB9ro8eoTiTa1q91dqxwRxTVAwBqqufte3Bn3YR5VzUsjoSSumasoVfJFuZVJl"
+    }
+  ],
+  "faqItems": [
+    {
+      "question": "Who changed Prabhupada's books?",
+      "answer": "The Bhaktivedanta Book Trust (BBT), specifically under the direction of Jayadvaita Swami, published revised editions of several of Prabhupada's books after his departure in 1977. The most significant revision was the 1983 edition of Bhagavad Gita As It Is."
+    },
+    {
+      "question": "Did Prabhupada authorize the changes?",
+      "answer": "No documented evidence exists of Prabhupada authorizing a posthumous revision of his completed Bhagavad Gita. While Prabhupada occasionally corrected specific errors when brought to his attention, this is fundamentally different from authorizing a wholesale revision of a published work."
+    },
+    {
+      "question": "How many changes were made?",
+      "answer": "541 out of 700 verses (77%) in the Bhagavad Gita were altered. BookChanges.com documents over 5,000 individual changes in the Gita alone. 496 of 625 purports and 483 of 653 translations were modified. The Lilamrta biography has over 1,108 documented changes."
+    },
+    {
+      "question": "Where can I get the original books?",
+      "answer": "Original editions are available from multiple sources: Read online at PrabhupadaBooks.com and AsItIs.com. Buy physical copies from KrishnaStore.com or Krishna Books Inc. Download free PDFs from Krishna.org and Prabhupada-Media.net. The original Vedabase is available at Krishna.org."
+    },
+    {
+      "question": "How can I verify the changes myself?",
+      "answer": "Use GitaDiff (gitadiff.pages.dev) to explore verse-by-verse comparisons interactively, or visit the DiffChecker comparison for a full text diff. BookChanges.com provides detailed documentation of every change with analysis."
+    },
+    {
+      "question": "How can I help?",
+      "answer": "Distribute original books, share resources from this site, join the Reddit community at r/PrabhupadaAsItIs, and support organizations like Krishna Books Inc. and Vedic Vault that preserve and distribute original editions."
+    }
+  ],
+  "navItems": [
+    {
+      "label": "Home",
+      "href": "index.html",
+      "page": "home"
+    },
+    {
+      "label": "Books",
+      "href": "pages/books.html",
+      "page": "books"
+    },
+    {
+      "label": "Audio",
+      "href": "pages/audio.html",
+      "page": "audio"
+    },
+    {
+      "label": "Documents",
+      "href": "pages/documents.html",
+      "page": "documents"
+    },
+    {
+      "label": "Tools",
+      "href": "pages/tools.html",
+      "page": "tools"
+    },
+    {
+      "label": "Debunking",
+      "href": "pages/debunking.html",
+      "page": "debunking"
+    },
+    {
+      "label": "Q&A",
+      "href": "pages/qa.html",
+      "page": "qa"
+    },
+    {
+      "label": "Community",
+      "href": "pages/community.html",
+      "page": "community"
+    },
+    {
+      "label": "ES",
+      "href": "es/index.html",
+      "page": "es"
+    }
+  ]
+}

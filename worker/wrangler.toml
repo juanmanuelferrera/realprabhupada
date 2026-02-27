@@ -1,0 +1,10 @@
+name = "realprabhupada"
+main = "src/index.js"
+compatibility_date = "2024-09-01"
+
+[ai]
+binding = "AI"
+
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "realprabhupada-index"

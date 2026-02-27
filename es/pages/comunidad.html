@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Con&eacute;ctate con devotos que preservan las ense&ntilde;anzas originales de Srila Prabhupada.">
+  <meta name="theme-color" content="#FF9933">
+  <title>Comunidad &mdash; Preservando el Legado de Srila Prabhupada</title>
+  <link rel="stylesheet" href="../../css/styles.css">
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.style.colorScheme = 'dark';
+        document.addEventListener('DOMContentLoaded', function() {
+          document.body.classList.add('dark-mode');
+        });
+      }
+    })();
+  </script>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="../index.html" class="site-brand" aria-label="Inicio &mdash; Preservando el Legado de Srila Prabhupada">
+        <span class="site-brand-icon" aria-hidden="true">&#x1F4D6;</span>
+        <span class="site-brand-text">Legado de Prabhupada</span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Navegaci&oacute;n principal">
+        <a href="../index.html"        class="nav-link">Inicio</a>
+        <a href="libros.html"          class="nav-link">Libros</a>
+        <a href="audio.html"           class="nav-link">Audio</a>
+        <a href="documentos.html"      class="nav-link">Documentos</a>
+        <a href="herramientas.html"    class="nav-link">Herramientas</a>
+        <a href="desmentir.html"       class="nav-link">Desmentir</a>
+        <a href="preguntas.html"       class="nav-link">Preguntas</a>
+        <a href="comunidad.html"       class="nav-link active" aria-current="page">Comunidad</a>
+        <a href="../../pages/community.html" class="nav-link lang-toggle" aria-label="Cambiar a ingl&eacute;s">EN</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="header-btn" id="search-toggle" aria-label="Abrir b&uacute;squeda" aria-expanded="false" aria-controls="search-overlay">&#x1F50D;</button>
+        <button class="header-btn" id="theme-toggle" aria-label="Cambiar modo oscuro"><span class="theme-icon" aria-hidden="true">&#x2600;</span></button>
+        <button class="header-btn hamburger" id="nav-toggle" aria-label="Abrir men&uacute;" aria-expanded="false" aria-controls="nav-mobile">&#x2630;</button>
+      </div>
+    </div>
+
+    <div class="search-overlay" id="search-overlay" role="search" aria-label="B&uacute;squeda del sitio">
+      <div class="container">
+        <label for="search-input" class="visually-hidden">Buscar recursos</label>
+        <input type="search" id="search-input" class="search-bar" placeholder="Buscar libros, conferencias, documentos..." autocomplete="off">
+      </div>
+    </div>
+
+    <nav class="nav-mobile" id="nav-mobile" aria-label="Navegaci&oacute;n m&oacute;vil">
+      <a href="../index.html"        class="nav-link">Inicio</a>
+      <a href="libros.html"          class="nav-link">Libros</a>
+      <a href="audio.html"           class="nav-link">Audio</a>
+      <a href="documentos.html"      class="nav-link">Documentos</a>
+      <a href="herramientas.html"    class="nav-link">Herramientas</a>
+      <a href="desmentir.html"       class="nav-link">Desmentir</a>
+      <a href="preguntas.html"       class="nav-link">Preguntas</a>
+      <a href="comunidad.html"       class="nav-link active" aria-current="page">Comunidad</a>
+      <a href="../../pages/community.html" class="nav-link lang-toggle" aria-label="Cambiar a ingl&eacute;s">EN</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <section class="page-header">
+      <div class="container">
+        <h1>Comunidad</h1>
+        <p>Con&eacute;ctate con devotos que preservan las ense&ntilde;anzas originales de Srila Prabhupada</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="community-filters"></div>
+        <div id="community-grid" class="grid stagger-children"></div>
+
+        <div class="help-section">
+          <h2>C&oacute;mo Puedes Ayudar</h2>
+          <ul>
+            <li>Distribuye libros originales &mdash; compra en KrishnaStore.com o Krishna Books Inc. y comp&aacute;rtelos con personas interesadas</li>
+            <li>Comparte los recursos de este sitio con amigos, familiares y otros devotos</li>
+            <li>S&uacute;mate a comunidades en l&iacute;nea como r/PrabhupadaAsItIs en Reddit para discutir y aprender</li>
+            <li>Apoya organizaciones de preservaci&oacute;n como Vedic Vault que resguardan permanentemente las ense&ntilde;anzas de Prabhupada</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p class="footer-tagline">Preservando los Libros Originales de Srila Prabhupada Desde 1977</p>
+      <div class="footer-links">
+        <a href="https://arsaprayoga.com" target="_blank" rel="noopener noreferrer">ArsaPrayoga.com</a>
+        <a href="https://gitadiff.pages.dev" target="_blank" rel="noopener noreferrer">GitaDiff</a>
+        <a href="https://bookchanges.com" target="_blank" rel="noopener noreferrer">BookChanges.com</a>
+      </div>
+      <p class="footer-note">Hecho con devoci&oacute;n. Todos los recursos enlazan &uacute;nicamente a ediciones originales pre-1978.</p>
+    </div>
+  </footer>
+
+  <script src="../../js/data.js"></script>
+  <script src="../../js/cards.js"></script>
+  <script src="../../js/theme.js"></script>
+  <script src="../../js/nav.js"></script>
+  <script src="../../js/lunr.min.js"></script>
+  <script src="../../js/search.js"></script>
+  <script>
+    (function () {
+      'use strict';
+      var data = window.SITE_DATA;
+      var CR = window.CardRenderer;
+      if (!data || !CR) return;
+
+      var allIds = [32, 33, 29];
+      var allAssets = CR.getAssetsByIds(data.assets, allIds);
+
+      var filterCategories = [
+        { key: 'all', label: 'Todos' }
+      ];
+
+      function filterAndRender(categoryKey) {
+        CR.renderCards('community-grid', allAssets, data.categories);
+      }
+
+      CR.renderFilters('community-filters', filterCategories, 'all', filterAndRender);
+      filterAndRender('all');
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Connect with devotees preserving Srila Prabhupada's original teachings.">
+  <meta name="theme-color" content="#FF9933">
+  <title>Community — Preserving Srila Prabhupada's Legacy</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <!-- Inline critical theme script to prevent flash of wrong theme -->
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.style.colorScheme = 'dark';
+        document.addEventListener('DOMContentLoaded', function() {
+          document.body.classList.add('dark-mode');
+        });
+      }
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- Skip link for keyboard / screen-reader users -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+
+      <!-- Brand -->
+      <a href="../index.html" class="site-brand" aria-label="Home — Preserving Srila Prabhupada's Legacy">
+        <span class="site-brand-icon" aria-hidden="true">&#x1F4D6;</span>
+        <span class="site-brand-text">Prabhupada's Legacy</span>
+      </a>
+
+      <!-- Desktop navigation -->
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <a href="../index.html"     class="nav-link">Home</a>
+        <a href="books.html"        class="nav-link">Books</a>
+        <a href="audio.html"        class="nav-link">Audio</a>
+        <a href="documents.html"    class="nav-link">Documents</a>
+        <a href="tools.html"        class="nav-link">Tools</a>
+        <a href="debunking.html"    class="nav-link">Debunking</a>
+        <a href="qa.html"           class="nav-link">Q&amp;A</a>
+        <a href="community.html"    class="nav-link active" aria-current="page">Community</a>
+        <a href="../es/pages/comunidad.html"  class="nav-link lang-toggle" aria-label="Switch to Spanish">ES</a>
+      </nav>
+
+      <!-- Header action buttons -->
+      <div class="header-actions">
+
+        <!-- Search toggle -->
+        <button class="header-btn" id="search-toggle" aria-label="Toggle search" aria-expanded="false" aria-controls="search-overlay">
+          &#x1F50D;
+        </button>
+
+        <!-- Dark mode toggle -->
+        <button class="header-btn" id="theme-toggle" aria-label="Toggle dark mode">
+          <span class="theme-icon" aria-hidden="true">&#x2600;</span>
+        </button>
+
+        <!-- Mobile hamburger -->
+        <button class="header-btn hamburger" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-mobile">
+          &#x2630;
+        </button>
+      </div>
+    </div>
+
+    <!-- Search overlay (hidden by default) -->
+    <div class="search-overlay" id="search-overlay" role="search" aria-label="Site search">
+      <div class="container">
+        <label for="search-input" class="visually-hidden">Search resources</label>
+        <input
+          type="search"
+          id="search-input"
+          class="search-bar"
+          placeholder="Search books, lectures, documents..."
+          autocomplete="off"
+        >
+      </div>
+    </div>
+
+    <!-- Mobile navigation drawer (hidden by default) -->
+    <nav class="nav-mobile" id="nav-mobile" aria-label="Mobile navigation">
+      <a href="../index.html"     class="nav-link">Home</a>
+      <a href="books.html"        class="nav-link">Books</a>
+      <a href="audio.html"        class="nav-link">Audio</a>
+      <a href="documents.html"    class="nav-link">Documents</a>
+      <a href="tools.html"        class="nav-link">Tools</a>
+      <a href="debunking.html"    class="nav-link">Debunking</a>
+      <a href="qa.html"           class="nav-link">Q&amp;A</a>
+      <a href="community.html"    class="nav-link active" aria-current="page">Community</a>
+      <a href="../es/pages/comunidad.html"  class="nav-link lang-toggle" aria-label="Switch to Spanish">ES</a>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       MAIN CONTENT
+       ============================================================ -->
+  <main id="main-content">
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Community</h1>
+        <p>Connect with devotees preserving Srila Prabhupada's original teachings</p>
+      </div>
+    </section>
+
+    <!-- Filter Tabs + Cards -->
+    <section class="section">
+      <div class="container">
+        <div id="community-filters"></div>
+        <div id="community-grid" class="grid stagger-children">
+          <!-- Rendered by cards.js -->
+        </div>
+
+        <!-- How You Can Help Section -->
+        <div class="help-section">
+          <h2>How You Can Help</h2>
+          <ul>
+            <li>Distribute original books — buy from KrishnaStore.com or Krishna Books Inc. and share them with interested people</li>
+            <li>Share resources from this site with friends, family, and fellow devotees</li>
+            <li>Join online communities like r/PrabhupadaAsItIs on Reddit to discuss and learn</li>
+            <li>Support preservation organizations like Vedic Vault that permanently safeguard Prabhupada's teachings</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p class="footer-tagline">Preserving Srila Prabhupada's Original Books Since 1977</p>
+
+      <div class="footer-links">
+        <a href="https://arsaprayoga.com" target="_blank" rel="noopener noreferrer">ArsaPrayoga.com</a>
+        <a href="https://gitadiff.pages.dev" target="_blank" rel="noopener noreferrer">GitaDiff</a>
+        <a href="https://bookchanges.com" target="_blank" rel="noopener noreferrer">BookChanges.com</a>
+      </div>
+
+      <p class="footer-note">
+        Built with devotion. All resources link to original, pre-1978 editions only.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../js/data.js"></script>
+  <script src="../js/cards.js"></script>
+  <script src="../js/theme.js"></script>
+  <script src="../js/nav.js"></script>
+  <script src="../js/lunr.min.js"></script>
+  <script src="../js/search.js"></script>
+  <script>
+    (function () {
+      'use strict';
+
+      var data = window.SITE_DATA;
+      var CR = window.CardRenderer;
+      if (!data || !CR) return;
+
+      // Asset IDs for this page: community (32, 33) + preservation (29)
+      var allIds = [32, 33, 29];
+      var allAssets = CR.getAssetsByIds(data.assets, allIds);
+
+      // No complex filter mapping needed — show all
+      // But render filters for consistency
+      var filterCategories = [
+        { key: 'all', label: 'All' }
+      ];
+
+      function filterAndRender(categoryKey) {
+        // Only "all" for this page since there are only 3 items
+        CR.renderCards('community-grid', allAssets, data.categories);
+      }
+
+      // Render filters and initial cards
+      CR.renderFilters('community-filters', filterCategories, 'all', filterAndRender);
+      filterAndRender('all');
+    })();
+  </script>
+</body>
+</html>

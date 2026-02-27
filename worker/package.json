@@ -1,0 +1,17 @@
+{
+  "name": "realprabhupada-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for Preserving Prabhupada's Legacy RAG backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy",
+    "export-data": "node scripts/export-data.js",
+    "ingest": "node scripts/ingest.js",
+    "ingest:upload": "node scripts/ingest.js --upload"
+  },
+  "devDependencies": {
+    "wrangler": "^3.78.0"
+  }
+}
